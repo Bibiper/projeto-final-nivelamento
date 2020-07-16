@@ -124,40 +124,41 @@
     numb = parseInt(prompt('Digite um numero:'));
 
 //7. Array são listas que retornam os indices dos valores.
- //Exemplo: 
- var comidas = ["massa", "carne", "japoneza"]    
+    //Exemplo: 
+    var comidas = ["massa", "carne", "japoneza"]    
 
- //8. Objetos são arrays que retornam nomes dos valores
- //Ex: 
- var aluno = {nome: "Bianca", idade: 38, sexo: "feminino"};
+//8. Objetos são arrays que retornam nomes dos valores
+    //Ex: 
+    var aluno = {nome: "Bianca", idade: 38, sexo: "feminino"};
 
- //11. operadores && significa e - todas as condições tem que ser atendidas
- //                || ou - uma das condições tem que ser atendida
- //                 == igual - algo deve ser igual a outro valor
- //                 != diferente = um valor deve ser diferente de outro
+//9. camelCase, PascalCase, kibab-case e snake_case são formas de escrever palavras compostas sem espaços ou separando-as com símbolos, de acordo com a capitalização das primeiras letras de cada palavra e os símbolos usados para separar palavras.
+    //camelCase: a primeira palavra é iniciada com letra minúscula e as demais, com letra maiusscula, e são concatenadas sem espaços ou símbolos. 
+    //PascalCase: tanto a primeira quanto as demais palavras são iniciadas com letra maiuscula e não se usa simbolo para uní-las. 
+    //kibab-case: todas as palavras são iniciadas com letra minúscula e se utiliza o símbolo - entre elas. 
+    //snake_case: todas as palavras são iniciadas com letra minúscula e se utiliza o símbolo _ entre elas.
+
+//10. Caminho absoluto x caminho relativo - Um caminho é o mapa a partir do topo da estrutura de diretórios para onde você está atualmente na estrutura.
+    //Caminho absoluto: é o nome completo do caminho para a localização de um diretório raiz de forma independente da página atual.
+    //Caminho relativo: é o caminho para a localização do diretório a partir da página atual.
+
+//11. operadores: && significa e - todas as condições tem que ser atendidas
+    //                || significa ou - uma das condições tem que ser atendida
+    //                == significa igual - algo deve ser igual a outro valor
+    //                != significa diferente = um valor deve ser diferente de outro
 
 
- //12
-// Eper (entender, planejar, executar e revisar) estratégia de otimização de qq projeto. Facilita a execução e garante o sucesso do resultado.
+//12 EPER (entender, planejar, executar e revisar) estratégia de otimização de qq projeto. Facilita a execução e garante o sucesso do resultado.
 
-
- //13 
- //Pilha primeiro que entra, ultimo que sai
- //Fila, primeito que entra primeiro que sai
+//13 Fila e Pilha
+    //Pilha primeiro que entra, ultimo que sai
+    //Fila, primeito que entra primeiro que sai
  
- //14 Javascript onde colocamos o funcionamento do html, as interações, funcionalidades
- // CSS onde fazemos a aparencia, decoração da página html
- //HTML pagina estática que está alocada no servidor e interface de interação com o usuario
-
-var cincoNumeros = [];
-for (i = 0; i < 5; i++){
-    var cincoNumeros = parseInt(prompt('Digite um numero:'));
-}
-
-documento.write(cincoNumeros);
+//14 Javascript onde colocamos o funcionamento do html, as interações, funcionalidades
+    //CSS onde construimos a aparencia, a decoração da página html
+    //HTML pagina estática que está alocada no servidor e interface de interação com o usuario
 
 
 
 
-  
+     
  
