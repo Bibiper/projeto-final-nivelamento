@@ -149,8 +149,12 @@
  // CSS onde fazemos a aparencia, decoração da página html
  //HTML pagina estática que está alocada no servidor e interface de interação com o usuario
 
+var cincoNumeros = [];
+for (i = 0; i < 5; i++){
+    var cincoNumeros = parseInt(prompt('Digite um numero:'));
+}
 
-
+documento.write(cincoNumeros);
 
 
 
